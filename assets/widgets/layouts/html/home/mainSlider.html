@@ -1,0 +1,68 @@
+<style>
+    .item {
+        height: inherit;
+        object-fit: cover;
+    }
+
+    .carousel-inner {
+        height:700px;
+    }
+    .carousel-caption {
+        padding: 10px;
+        background-color: rgba(0,0,0,0.5);
+        margin-bottom: 5%; 
+    }
+
+    .slider-navigation {
+        height: 700px;
+        line-height: 700px;
+        font-size: 20px;
+    }
+</style>
+
+
+    <header class="carousel slide" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+            <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#mainSlider" data-slide-to="1"></li>
+            <li data-target="#mainSlider" data-slide-to="2"></li>
+        </ol>
+        
+        <div class="carousel-inner">
+            
+            <div class="item active">
+                <img src="lib/images/slides/img1.jpg" alt="Los Angeles">
+                <div class="carousel-caption">
+                    <h1>Start Online Education</h1>
+                    <p>Free Online education template for elearning and online education institute.</p>
+                </div>
+            </div>
+        
+            <div class="item">
+                <img src="lib/images/slides/img2.jpg" alt="Chicago">
+                <div class="carousel-caption">
+                    <p>Free Online education template for elearning and online education institute.</p>
+                    <h1>Start Online Education</h1>
+                </div>
+            </div>
+        
+            <div class="item">
+                <img src="lib/images/slides/img3.jpg" alt="New York">
+                <div class="carousel-caption">
+                    <h1>Start Online Education</h1>
+                    <p>Free Online education template for elearning and online education institute.</p>
+                </div>
+            </div>
+        </div>
+        
+        <a class="left carousel-control" href="#mainSlider" data-slide="prev">
+            <i class="fa fa-chevron-left slider-navigation"></i>
+        </a>
+        <a class="right carousel-control" href="#mainSlider" data-slide="next">
+            <i class="fa fa-chevron-right slider-navigation"></i>
+        </a>
+    </header>
+
+<!-- /Header -->
+
